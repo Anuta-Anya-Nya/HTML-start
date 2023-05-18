@@ -1,36 +1,33 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: sans-serif;
 }
-
 /* для центрирования страницы: */
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
-
 .top-content-box {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
-
 .header {
   min-height: 768px;
-  background: linear-gradient(0deg, #ebf3fb 8.84%, rgba(152, 195, 232, 0) 31.12%);
+  background: linear-gradient(
+    0deg,
+    #ebf3fb 8.84%,
+    rgba(152, 195, 232, 0) 31.12%
+  );
   margin-top: 34px;
 }
-
 .header-contact {
   height: 414px;
   background: none;
 }
-
 .contact_header {
   background-image: url(img/background-header.svg);
   margin-top: 51px;
@@ -48,7 +45,6 @@ body {
   opacity: 0.6;
   letter-spacing: 0.05em;
 }
-
 .text-project {
   width: 75%;
   text-align: center;
@@ -56,13 +52,11 @@ body {
   margin: 32px auto 64px;
   opacity: 1;
 }
-
 .contact-header-box {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .contact-header-text {
   opacity: 1;
   line-height: 30px;
@@ -72,7 +66,6 @@ body {
   font-size: 20px;
   max-width: 780px;
 }
-
 .header_info {
   padding-top: 115px;
   flex-grow: 1;
@@ -81,7 +74,6 @@ body {
   background-position: right bottom;
   background-size: 44%;
 }
-
 .top__heading {
   font-size: 64px;
   color: #1f3f68;
@@ -91,11 +83,9 @@ body {
   letter-spacing: 0.04em;
   margin-bottom: 32px;
 }
-
 .top-text {
   width: 425px;
 }
-
 .top_button {
   background: #5a98d0;
   box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
@@ -110,7 +100,6 @@ body {
   display: inline-block;
   margin-top: 71px;
 }
-
 .heading-contacts {
   font-weight: 500;
   font-size: 44px;
@@ -120,11 +109,9 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
 }
-
 .what_we_do {
   padding-top: 64px;
 }
-
 .heading {
   font-size: 36px;
   text-align: center;
@@ -132,7 +119,6 @@ body {
   letter-spacing: 0.05em;
   font-weight: 300;
 }
-
 .heading-mini {
   font-size: 20px;
   line-height: 30px;
@@ -141,7 +127,6 @@ body {
   font-weight: 500;
   letter-spacing: 0.04em;
 }
-
 .contact_item > .heading-mini {
   margin-bottom: 24px;
   margin-top: 40px;
@@ -151,7 +136,6 @@ body {
   font-weight: 300;
   letter-spacing: 0.04em;
 }
-
 .forms {
   border: 1px solid #356ead;
   box-sizing: border-box;
@@ -165,7 +149,6 @@ body {
   color: #1f3f68;
   opacity: 0.2;
 }
-
 .button {
   background: #5a98d0;
   box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
@@ -180,20 +163,17 @@ body {
   padding: 23px 183px;
   border: none;
 }
-
 .menu {
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
-
 .card-box {
   display: flex;
   justify-content: space-around;
   padding-top: 64px;
   padding-bottom: 64px;
 }
-
 .card {
   width: 359px;
   box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
@@ -204,12 +184,10 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .card-img {
   align-self: center;
   margin-bottom: 51px;
 }
-
 .card-link {
   font-weight: 400;
   font-size: 14px;
@@ -224,17 +202,14 @@ body {
   width: 940px;
   margin-bottom: 96px;
 }
-
 .contact_info {
   margin-right: 100px;
   flex-basis: 33.3333%;
 }
-
 .contact-image {
   margin-top: 78px;
   margin-bottom: 16px;
 }
-
 .message_form {
   flex-grow: 1;
   background: #ffffff;
@@ -244,11 +219,9 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .contact-list {
   list-style: none;
 }
-
 .list-item {
   font-weight: 300;
   font-size: 16px;
@@ -257,35 +230,29 @@ body {
   color: #1f3f68;
   display: flex;
 }
-
 .list-item::before {
   content: url(img/icon-phone.svg);
   display: block;
   margin-right: 16px;
 }
-
 .list-item-link {
   font-weight: 400;
   letter-spacing: 0.05em;
   text-decoration: none;
 }
-
 .icon-site:before {
   content: url(img/icon-site.svg);
   display: block;
   margin-right: 18px;
 }
-
 .list-icon:before {
   content: url(img/icon_email.svg);
   display: block;
   margin-right: 18px;
 }
-
 .message_form > .heading-mini {
   margin-bottom: 16px;
 }
-
 .message_form > label {
   margin-bottom: 8px;
   margin-top: 32px;
@@ -304,11 +271,9 @@ body {
 .project-item-margin {
   margin-right: 32px;
 }
-
 .project-img {
   width: 100%;
 }
-
 .project-text {
   font-weight: 400;
   font-size: 32px;
@@ -320,7 +285,6 @@ body {
   top: 64px;
   right: 64px;
 }
-
 .project-text-smaller {
   position: absolute;
   top: 32px;
@@ -331,17 +295,14 @@ body {
   letter-spacing: 0.05em;
   color: #ffffff;
 }
-
 .project-parent {
   display: flex;
   justify-content: space-between;
   margin-top: 32px;
 }
-
 .map-container {
   width: 940px;
 }
-
 /* Высоту футера не ограничиваем!!! */
 .footer {
   background: #316099;
@@ -349,14 +310,12 @@ body {
   padding-top: 91px;
   padding-bottom: 64px;
 }
-
 .footer_top {
   padding-bottom: 96px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .footer-heading {
   width: 340px;
   font-weight: 400;
@@ -367,11 +326,9 @@ body {
   text-align: left;
   margin-bottom: 32px;
 }
-
 .footer .text {
   width: 495px;
 }
-
 .footer-top-text {
   color: #ffffff;
 }
@@ -387,18 +344,15 @@ body {
   padding: 15px 80px;
   text-decoration: none;
 }
-
 .footer-line {
   opacity: 0.4;
 }
-
 .footer_info {
   display: flex;
   justify-content: space-around;
   margin: 64px 0;
   list-style: none;
 }
-
 .footer-list {
   font-weight: 400;
   font-size: 16px;
@@ -411,19 +365,16 @@ body {
   margin-right: 32px;
   display: flex;
 }
-
 .footer-list:first-child::before {
   content: "A.";
   display: block;
   margin-right: 16px;
 }
-
 .footer-list:nth-child(2)::before {
   content: "B.";
   display: block;
   margin-right: 16px;
 }
-
 .footer-list:nth-child(3)::before {
   content: "V.";
   display: block;
@@ -434,7 +385,6 @@ body {
   color: #ffffff;
   opacity: 0.4;
 }
-
 @media (max-width: 1024px) {
   .container {
     padding-left: 32px;
@@ -530,6 +480,7 @@ body {
   .card {
     width: 100%;
   }
+
   .text-project {
     width: 100%;
   }
@@ -564,23 +515,26 @@ body {
   .footer_top {
     flex-direction: column;
     padding-bottom: 41px;
+
   }
-  .footer_text {
+  .footer_text{
     margin-bottom: 40px;
     text-align: center;
     /* width: 100%; */
   }
-  .footer-heading {
+  .footer-heading{
     text-align: center;
   }
   .footer_info {
     margin-top: 32px;
-    margin-bottom: 37px;
-  }
-  .footer-list {
-    margin-bottom: 17px;
-  }
-  .footer .text {
-    text-align: center;
-  }
-}/*# sourceMappingURL=style.css.map */
+    margin-bottom: 37px;    
+}
+.footer-list {
+  margin-bottom: 17px;
+}
+.footer .text {
+  text-align: center;
+}
+
+  
+}

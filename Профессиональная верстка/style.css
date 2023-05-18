@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.header {
+  background: #222222;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-left {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+.menu-link-logo {
+  display: block;
+  padding: 19px 20px 19px 0;
+}
+.menu-link-search {
+  display: block;
+  padding: 28px 20px 20px 20px;
+}
+
+.menu-right {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.menu-link {
+  display: block;
+  padding: 26px 16px 20px 16px;
+}
+.sandwich {
+  padding-bottom: 22px;
+  padding-top: 30px;
+}
+.menu-icon {
+  vertical-align: middle;
+}
+.icon-bag {
+  position: relative;
+}
+.icon-bag::after {
+  content: "0";
+  display: block;
+  position: absolute;
+  top: 17px;
+  left: 38px;
+  border-radius: 50%;
+  width: 19px;
+  height: 19px;
+  background-color: #f16d7f;
+  font-family: "Lato", no-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.banner {
+  background: #f1e4e6;
+  margin-bottom: 65px;
+}
+.banner__backgroung {
+  height: 764px;
+  background-image: url(images/banner-man.png);
+  background-repeat: no-repeat;
+  background-position: -65%;
+  position: relative;
+}
+.banner__text {
+  border-left: 12px solid #f16d7f;
+  position: absolute;
+  left: 50%;
+  top: 38%;
+  padding-left: 16px;
+  min-width: 405px;
+}
+.banner__text h1 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #222222;
+}
+
+.banner__text h2 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #222222;
+}
+
+.banner__text h2 span {
+  color: #f16d7f;
+}
+
+.clothes {
+  display: flex;
+  list-style: none;
+}
+.offers-pic {
+  vertical-align: middle;
+  opacity: 50%;
+}
+.clothes li {
+  margin-right: 30px;
+  margin-bottom: 30px;
+ 
+}
+
+.accesories {
+  list-style: none;
+ 
+}
+
+.offers-link {
+  display: block;
+  width: 100%;
+  position: relative;
+  background: rgba(33, 22, 22, 0.7);
+}
+.offers-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.offer {
+  font-family: "Lato", sant-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+.offer-head {
+  font-family: "Lato", sant-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #f16d7f;
+}
