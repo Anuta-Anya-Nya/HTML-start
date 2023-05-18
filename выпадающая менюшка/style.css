@@ -30,7 +30,7 @@
 
 .banner-block {
   height: 100%;
-  background: url(images/banner-man.png) 0 -51px;
+  /* background: url(images/banner-man.png) 0 -51px; */
 }
 .the-brand {
   color: #222222;

@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
     <title>MyShop</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <div class="header__menu">
+        <nav class="header__menu">
           <ul class="menu-left">
             <li class="menu-item">
               <a href="#" class="menu-link-logo"
@@ -26,13 +27,40 @@
             </li>
           </ul>
           <ul class="menu-right">
-            <li class="menu-item">
-              <a href="#" class="menu-link sandwich"
-                ><img
+            <li class="menu-item menu-drop">
+              <a href="#" class="menu-link sandwich">
+                <img
                   class="menu-icon"
                   src="images/menu-sandwich.svg"
                   alt="menu"
               /></a>
+              <nav class="drop-menu-box">
+                <h4 class="drop-menu-head">MENU</h4>
+                <div class="drop-menu-item">
+                  <h4 class="drop-menu-header">MAN</h4>
+                  <a href="" class="drop-menu-link">Accessories</a>
+                  <a href="" class="drop-menu-link">Bags</a>
+                  <a href="" class="drop-menu-link">Denim</a>
+                  <a href="" class="drop-menu-link">T-Shirts</a>
+                </div>
+                <div class="drop-menu-item">
+                  <h4 class="drop-menu-header">WOMAN</h4>
+                  <a href="" class="drop-menu-link">Accessories</a>
+                  <a href="" class="drop-menu-link">Jackets & Coats</a>
+                  <a href="" class="drop-menu-link">Polos</a>
+                  <a href="" class="drop-menu-link">T-Shirts</a>
+                  <a href="" class="drop-menu-link">Shirts</a>
+                </div>
+                <div class="drop-menu-item">
+                  <h4 class="drop-menu-header">KIDS</h4>
+                  <a href="" class="drop-menu-link">Accessories</a>
+                  <a href="" class="drop-menu-link">Jackets & Coats</a>
+                  <a href="" class="drop-menu-link">Polos</a>
+                  <a href="" class="drop-menu-link">T-Shirts</a>
+                  <a href="" class="drop-menu-link">Shirts</a>
+                  <a href="" class="drop-menu-link">Bags</a>
+                </div>
+              </nav>
             </li>
             <li class="menu-item">
               <a href="#" class="menu-link"
@@ -45,7 +73,7 @@
               /></a>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
     </header>
 
@@ -60,68 +88,134 @@
           </div>
         </div>
       </div>
-
-      <div class="offers">
-        <div class="container">
-          <ul class="clothes">
-            <li>
-              <a href="#" class="offers-link"
-                ><img
-                  class="offers-pic"
-                  src="images/offers-woman.png"
-                  alt="for women"
-                />
-                <div class="offers-text">
-                  <p class="offer">30% OFF</p>
-                  <h2 class="offer-head">FOR WOMEN</h2>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="offers-link"
-                ><img
-                  class="offers-pic"
-                  src="images/offers-man.png"
-                  alt="for men"
-                />
-                <div class="offers-text">
-                  <p class="offer">HOT DEAL</p>
-                  <h2 class="offer-head">FOR MEN</h2>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="offers-link"
-                ><img
-                  class="offers-pic"
-                  src="images/offers-kid.png"
-                  alt="for kid"
-                />
-                <div class="offers-text">
-                  <p class="offer">NEW ARRIVALS</p>
-                  <h2 class="offer-head">FOR KIDS</h2>
-                </div>
-              </a>
-            </li>
-          </ul>
-          <ul class="accesories">
-            <li>
-              <a href="#" class="offers-link"
-                ><img
-                  class="offers-pic"
-                  src="images/offers-acces.png"
-                  alt="accesories"
-                />
-                <div class="offers-text">
-                  <p class="offer">LUXIROUS & TRENDY</p>
-                  <h2 class="offer-head">ACCESORIES</h2>
-                </div>
-              </a>
-            </li>
-          </ul>
+    </main>
+    <section class="offers">
+      <div class="container">
+        <ul class="clothes">
+          <li>
+            <a href="#" class="offers-link"
+              ><img
+                class="offers-pic"
+                src="images/offers-woman.png"
+                alt="for women"
+              />
+              <div class="offers-text">
+                <p class="offer">30% OFF</p>
+                <h2 class="offer-head">FOR WOMEN</h2>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="offers-link"
+              ><img
+                class="offers-pic"
+                src="images/offers-man.png"
+                alt="for men"
+              />
+              <div class="offers-text">
+                <p class="offer">HOT DEAL</p>
+                <h2 class="offer-head">FOR MEN</h2>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="offers-link"
+              ><img
+                class="offers-pic"
+                src="images/offers-kid.png"
+                alt="for kid"
+              />
+              <div class="offers-text">
+                <p class="offer">NEW ARRIVALS</p>
+                <h2 class="offer-head">FOR KIDS</h2>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <ul class="accesories">
+          <li>
+            <a href="#" class="offers-link"
+              ><img
+                class="offers-pic"
+                src="images/offers-acces.png"
+                alt="accesories"
+              />
+              <div class="offers-text">
+                <p class="offer">LUXIROUS & TRENDY</p>
+                <h2 class="offer-head">ACCESORIES</h2>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="products">
+      <div class="container">
+        <header class="products-head">
+          <h3 class="products-title">Fetured Items</h3>
+          <p class="products-text">
+            Shop for items based on what we featured in this week
+          </p>
+        </header>
+        <div class="products-box">
+          <div class="product-item"></div>
+          <div class="product-item"></div>
+          <div class="product-item"></div>
+          <div class="product-item"></div>
+        </div>
+        <div class="product-button"></div>
+      </div>
+    </section>
+    <section class="benefits">
+      <div class="container">
+        <div class="benefits-box">
+        <div class="benefits-item">
+          <img src="images/benefits-car.png" alt="free delivery" class="benefits-icon" />
+          <h3 class="benefit-head">Free Delivery</h3>
+          <p class="denefit-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+        </div>
+        <div class="benefits-item">
+          <img src="images/benefits-pr.png" alt="discont" class="benefits-icon" />
+          <h3 class="benefit-head">Sales & discounts</h3>
+          <p class="denefit-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+        </div>
+        <div class="benefits-item">
+          <img src="images/benefits-crown.png" alt="quality" class="benefits-icon" />
+          <h3 class="benefit-head">Quality assurance</h3>
+          <p class="denefit-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
         </div>
       </div>
-    </main>
-    <footer class="footer"></footer>
+      </div>
+    </section>
+    <section class="feedback">
+      <div class="container">
+        <div class="feedback-box">
+        <figure class="rewiev">
+          <img src="images/feedback-foto.png" alt="foto">
+          <figcaption>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</figcaption>
+        </figure>
+        <div class="subscribe"></div>
+      </div>
+    </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p class="copy-text">© 2021 Brand All Rights Reserved.</p>
+        <nav class="social">
+          <a href="#" class="soc-link"
+            ><img src="#" alt="" class="soc-icon"
+          /></a>
+          <a href="#" class="soc-link"
+            ><img src="#" alt="" class="soc-icon"
+          /></a>
+          <a href="#" class="soc-link"
+            ><img src="#" alt="" class="soc-icon"
+          /></a>
+          <a href="#" class="soc-link"
+            ><img src="#" alt="" class="soc-icon"
+          /></a>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
