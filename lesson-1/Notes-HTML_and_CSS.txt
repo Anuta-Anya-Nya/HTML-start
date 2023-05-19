@@ -53,7 +53,8 @@ top, header, content, footer-top, footer-bottom
 ТИПОГРАФ - ресурс, еоторый сам расставляет Спецсимволы
 
 https://fonts.google.com/ можно взять ссылку и подключить шрифт в head 
-
+www.freepik.com
+https://fontawesome.com/
 <!-- Комментарии-->
 
 Блочные
