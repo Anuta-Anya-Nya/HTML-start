@@ -131,6 +131,109 @@
 /* . для того, чтобы у последних элементов меню сдвигалась стрелочка */
 /* !!auto обязательно, иначе может не срабтать */
 .last:hover .mega-box:before {
-    right: 50px;
-    left: auto;
+  right: 50px;
+  left: auto;
 }
+.item-sec {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.item-heading {
+  margin-bottom: 10px;
+}
+.item-description {
+  margin-bottom: 40px;
+}
+.item {
+  width: 263px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.item-link {
+  display: block;
+  width: 263px;
+  text-decoration: none;
+}
+.item-link:hover {
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.item-pic {
+  /* убрать белые рамки при наведении на ссылку и появлении рамки */
+  width: 100%;
+}
+.txt-box {
+  padding: 15px;
+}
+.item-desc {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+}
+.item-price {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f15d7f;
+}
+
+.item:hover .item-pic {
+  filter: brightness(30%);
+}
+
+.add-box {
+  display: none;
+  position: absolute;
+  top: 98px;
+  justify-content: center;
+  /* если во флексе не указана ширина, но он не сможет центрировать элементы */
+  width: 100%;
+  /* появляется некликабельная зона, ссылки по бокам нет. потому что растянут add-box.  */
+  pointer-events: none;
+  /* свойство наследуемое, поэтому для add тоже не работает курсор, чтобы это осправить надо в add дописать то же своейство, но с авто */
+}
+.add {
+  display: flex;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  /* чтобы кнопка указывала на свою ссылку */
+  pointer-events: auto;
+}
+
+.cart {
+  margin-right: 10px;
+}
+
+.add-desc {
+  font-family: Lato;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.item:hover .add-box {
+  display: flex;
+}
+.add:hover {
+  box-shadow: 0px 0px 10px 0px #fff;
+}
+
+.item-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+
+
