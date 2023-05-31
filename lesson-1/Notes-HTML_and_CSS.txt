@@ -731,7 +731,8 @@ https://www.figma.com/file/7XhT5EWfZX0W6ohgd57Pny/shop?type=design&node-id=0-1&t
 
 www.freepik.com
 encycolorpedia.ru
-
+jsbin.com
+encycolorpedia.ru
 админ-панель сайта с помощью bootstrap
 
 форма в ней инпут и баттон тийп сабмит, форме дать флекс
@@ -786,3 +787,5 @@ select
     option value=""
 input type="checkbox" 
 
+есть стартовая страница, есть другие страницы: каталог, решистрация, корзина и т.д.
+надо ли для этих страниц  писать стили в том же css файле, или подключить дополнительный для каждой странички?

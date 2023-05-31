@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4edf1f583e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Registration</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__menu">
+          <ul class="menu-left">
+            <li class="menu-item">
+              <a href="index.html" class="menu-link-logo"
+                ><img class="menu-icon" src="images/menu-logo.svg" alt="logo"
+              /></a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link-search"
+                ><img
+                  class="menu-icon"
+                  src="images/menu-search.svg"
+                  alt="search"
+              /></a>
+            </li>
+          </ul>
+          <ul class="menu-right">
+            <li class="menu-item menu-drop">
+              <a href="#" class="menu-link sandwich">
+                <img
+                  class="menu-icon"
+                  src="images/menu-sandwich.svg"
+                  alt="menu"
+              /></a>
+              <nav class="drop-menu-box">
+                <h4 class="drop-menu-head">MENU</h4>
+                <div class="drop-menu-item">
+                  <h4 class="drop-menu-header">MAN</h4>
+                  <a href="" class="drop-menu-link">Accessories</a>
+                  <a href="" class="drop-menu-link">Bags</a>
+                  <a href="" class="drop-menu-link">Denim</a>
+                  <a href="" class="drop-menu-link">T-Shirts</a>
+                </div>
+                <div class="drop-menu-item">
+                  <h4 class="drop-menu-header">WOMAN</h4>
+                  <a href="" class="drop-menu-link">Accessories</a>
+                  <a href="" class="drop-menu-link">Jackets & Coats</a>
+                  <a href="" class="drop-menu-link">Polos</a>
+                  <a href="" class="drop-menu-link">T-Shirts</a>
+                  <a href="" class="drop-menu-link">Shirts</a>
+                </div>
+                <div class="drop-menu-item">
+                  <h4 class="drop-menu-header">KIDS</h4>
+                  <a href="" class="drop-menu-link">Accessories</a>
+                  <a href="" class="drop-menu-link">Jackets & Coats</a>
+                  <a href="" class="drop-menu-link">Polos</a>
+                  <a href="" class="drop-menu-link">T-Shirts</a>
+                  <a href="" class="drop-menu-link">Shirts</a>
+                  <a href="" class="drop-menu-link">Bags</a>
+                </div>
+              </nav>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link"
+                ><img class="menu-icon" src="images/menu-man.svg" alt="person"
+              /></a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link icon-bag"
+                ><img class="menu-icon" src="images/menu-bag.svg" alt="bag"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main reg-main">
+      <section class="reg-heading">
+        <div class="container reg-title-box">
+          <h1 class="reg-title">REGISTRATION</h1>
+        </div>
+      </section>
+      <section class="reg-form">
+        <div class="container reg-form-box">
+          <form class="reg-form-input" action="#">
+            <fieldset>
+              <legend class="reg-legend">Your Name</legend>
+              <input
+                class="input-text"
+                id="name-first"
+                placeholder="First Name"
+              />
+              <br />
+              <input
+                class="input-text"
+                id="name-last"
+                placeholder="Last Name"
+              />
+              <div class="reg-flex">
+                <div class="reg-gender">
+                  <input type="radio" name="gender" id="male" />
+                  <label for="male">Male</label>
+                </div>
+                <div class="reg-gender">
+                  <input type="radio" name="gender" id="female" />
+                  <label for="female">Female</label>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend class="reg-legend">Login details</legend>
+              <input class="input-text" id="email-reg" placeholder="Email" />
+              <br />
+              <input
+                class="input-text"
+                id="password-reg"
+                placeholder="Password"
+              />
+              <p class="reg-descr">
+                Please use 8 or more characters, with at least 1 number and a
+                mixture of uppercase and lowercase letters
+              </p>
+            </fieldset>
+            <fieldset class="cont-relative">
+              <div class="for-psevdo">
+                <input class="form-button" type="submit" value="JOIN NOW" />
+              </div>
+              
+            </fieldset>
+            
+          </form>
+          <div class="reg-text">
+            <p>LOYALTY HAS ITS PERKS</p>
+            <p>
+              Get in on the loyalty program where you can earn points and unlock
+              serious perks. Starting with these as soon as you join:
+            </p>
+            <ul class="perks-items">
+              <li class="perk">
+                <img src="images/reg-mark.png" alt="mark" class="reg-mark" />
+                <p>15% off welcome offer</p>
+              </li>
+
+              <li class="perk">
+                <img src="images/reg-mark.png" alt="mark" class="reg-mark" />
+                <p>Free shipping, returns and exchanges on all orders</p>
+              </li>
+              <li class="perk">
+                <img src="images/reg-mark.png" alt="mark" class="reg-mark" />
+                <p>$10 off a purchase on your birthday</p>
+              </li>
+              <li class="perk">
+                <img src="images/reg-mark.png" alt="mark" class="reg-mark" />
+                <p>Early access to products</p>
+              </li>
+              <li class="perk">
+                <img src="images/reg-mark.png" alt="mark" class="reg-mark" />
+                <p>Exclusive offers & rewards</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="feedback">
+      <div class="container feedback-box">
+        <figure class="rewiev">
+          <img class="rewiev_foto" src="images/feedback-foto.png" alt="foto" />
+          <figcaption>
+            “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
+            purus condimentum“
+          </figcaption>
+        </figure>
+        <form class="subscribe" action="#">
+          <fieldset>
+            <legend for="email" class="subscribe-text">
+              <h3>SUBSCRIBE</h3>
+              <p>FOR OUR NEWLETTER AND PROMOTION</p>
+            </legend>
+            <div class="subscribe-flex">
+              <input type="text" id="email" placeholder="Enter Your Email" />
+              <button type="submit" class="subscribe-button">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p class="copy-text">© 2021 Brand All Rights Reserved.</p>
+        <nav class="social">
+          <a href="#" class="soc-link">
+            <!-- <img src="images/Soc-f.png" alt="" class="soc-i"/> -->
+            <i class="fa-brands fa-facebook-f soc-icon"></i>
+          </a>
+          <a href="#" class="soc-link"
+            ><i class="fa-brands fa-instagram soc-icon"></i>
+            <!-- <img src="images/Soc-in.png" alt="" class="soc-i"/> -->
+          </a>
+          <a href="#" class="soc-link"
+            ><i class="fa-brands fa-pinterest-p soc-icon"></i>
+            <!-- <img src="images/Soc-p.png" alt="" class="soc-i"/> -->
+          </a>
+          <a href="#" class="soc-link">
+            <i class="fa-brands fa-twitter soc-icon"></i>
+            <!-- <img src="images/Soc-tv.png" alt="" class="soc-i" /> -->
+          </a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

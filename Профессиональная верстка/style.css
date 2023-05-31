@@ -535,4 +535,187 @@ body {
 
 .soc-link:hover .soc-icon {
   color: #ffffff;
+}
+
+.reg-main {
+  margin-bottom: 96px;
+}
+
+.reg-heading {
+  background: #F8F3F4;
+  margin-bottom: 64px;
+}
+
+.reg-title-box {
+  display: flex;
+  min-height: 148px;
+}
+
+.reg-title {
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+  margin: auto 0;
+}
+
+.reg-form-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reg-form-input {
+  max-width: 358px;
+}
+
+.reg-form-input > fieldset {
+  border: none;
+}
+
+.input-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 10px 15px 17px;
+  margin-bottom: 20px;
+  border: 1px solid #A4A4A4;
+}
+
+.reg-gender {
+  display: inline-block;
+  margin-top: 13px;
+  margin-bottom: 35px;
+  margin-right: 20px;
+  color: #000000;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  position: relative;
+}
+
+.reg-gender input[type=radio] {
+  margin-right: 10px;
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  padding: 2px;
+  box-sizing: border-box;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 1px solid #A4A4A4;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+input[type=radio]:checked {
+  background-color: #A4A4A4;
+}
+
+.reg-gender {
+  display: flex;
+  align-items: center;
+}
+
+.reg-flex {
+  display: flex;
+  align-items: center;
+}
+
+.reg-descr {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  max-width: 100%;
+  text-align: justify;
+  margin-bottom: 39px;
+}
+
+.form-button {
+  border: 1px solid #f16d7f;
+  color: #ffffff;
+  width: 167px;
+  padding: 16px 29px;
+  background-color: #f16d7f;
+  box-sizing: border-box;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  text-align: start;
+}
+
+.cont-relative {
+  position: relative;
+  width: 167px;
+}
+
+.for-psevdo::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  z-index: 10;
+  top: 20px;
+  right: 20px;
+  transform: rotate(45deg);
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.for-psevdo::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 2px;
+  position: absolute;
+  z-index: 10;
+  top: 23px;
+  right: 20px;
+  border-top: 2px solid white;
+}
+
+.reg-text {
+  max-width: 652px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  text-align: justify;
+}
+
+.reg-text > p {
+  margin-bottom: 22px;
+}
+
+.reg-legend {
+  margin-bottom: 21px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+
+.perks-items {
+  list-style-type: none;
+}
+
+.perk {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.reg-mark {
+  width: 20px;
+  height: 16px;
+  margin: auto 22px auto 0;
 }/*# sourceMappingURL=style.css.map */
